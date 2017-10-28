@@ -1,31 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>HTML Academy: Pink - галерея</title>
-  </head>
-  <body>
-    <header class="page-header">
-      <nav class="main-nav">
-        <a class="main-nav__logo">
-          <img src="" alt="Логотип Pink">
-        </a>
-        <button class="main-nav__toggle">Открыть меню</button>
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
-          <li class="main-nav__item"><a href="gallery.html" class="main-nav__link">Фотографии</a></li>
-          <li class="main-nav__item"><a href="contest.html" class="main-nav__link">Конкурс</a></li>
-          <li class="main-nav__item"><a href="https://htmlacademy.ru/" class="main-nav__link">Html academy</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="page-main">
-      <h1 class="page-main__title">Фотографии пользователей</h1>
-      <p class="page-main__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
-      <section class="gallery">
-
-      </section>
-    </main>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>HTML Academy: Pink - галерея</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <a class="main-nav__logo">
+                    <img src="" alt="Логотип Pink">
+                </a>
+                <button class="main-nav__toggle">Открыть меню</button>
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+                    <li class="main-nav__item"><a href="gallery.html" class="main-nav__link">Фотографии</a></li>
+                    <li class="main-nav__item"><a href="contest.html" class="main-nav__link">Конкурс</a></li>
+                    <li class="main-nav__item"><a href="https://htmlacademy.ru/" class="main-nav__link">Html academy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-main">
+            <h1 class="page-main__title">Фотографии пользователей</h1>
+            <p class="page-main__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+            <section class="gallery">
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Анна</cite>
+                            <time class="gallery__time">(5 минут назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">215</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Левон</cite>
+                            <time class="gallery__time">(5 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Вчера он на луну летал, сегодня в руки к нам попал.</blockquote>
+                        <span class="gallery__likes likes">
+                            <span class="likes__text">Нравится: <output class="likes__count">356</output></span>
+                             <span class="likes__heart"></span>
+                         </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Антон</cite>
+                            <time class="gallery__time">(12 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Соседи будут рады!</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">666</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Борис</cite>
+                            <time class="gallery__time">(20 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Здесь могла быть ваша цитата о высоком и вечном.</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">215</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Сергей</cite>
+                            <time class="gallery__time">(25 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Самая кубанская в мире!</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">4</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Максим</cite>
+                            <time class="gallery__time">(40 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Где снег-то?</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">150</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+                <article class="gallery__item">
+                    <a href="" class="gallery__link"><img src="" alt="" class="gallery__image"></a>
+                    <div class="gallery__description">
+                        <div class="gallery__author">
+                            <cite class="gallery__name">Надежда</cite>
+                            <time class="gallery__time">(45 часов назад)</time>
+                        </div>
+                        <blockquote class="gallery__message">Всем GM и взаимные лайки!</blockquote>
+                        <span class="gallery__likes likes">
+              <span class="likes__text">Нравится: <output class="likes__count">2560</output></span>
+              <span class="likes__heart"></span>
+            </span>
+                    </div>
+                </article>
+            </section>
+            <p class="page-main__description">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+            <section class="photo-editor">
+                <h2 class="visually-hidden">Редактор фотографий онлайн</h2>
+                <img src="" alt="" class="photo-editor__image">
+                <div class="photo-editor__control">
+                    <ul class="photo-editor__list">
+                        <li class="photo-editor__item">
+                            <label for="" class="visually-hidden"></label>
+                            <input type="radio" class="photo-editor__radio">
+                        </li>
+                        <li class="photo-editor__item">
+                            <label for="" class="visually-hidden"></label>
+                            <input type="radio" class="photo-editor__radio">
+                        </li>
+                        <li class="photo-editor__item">
+                            <label for="" class="visually-hidden"></label>
+                            <input type="radio" class="photo-editor__radio">
+                        </li>
+                    </ul>
+                    <div class="photo-editor__range-bar"></div>
+                </div>
+                <button class="photo-editor__button">Запостить</button>
+                <button class="photo-editor__button">Отмена</button>
+            </section>
+            <footer class="page-footer">
+                <a href="" class="page-footer__logo"><img src="" alt=""></a>
+                <ul class="page-footer__social social">
+                    <li class="social__item"><a href="#" class="social__link"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"></a></li>
+                </ul>
+                <div class="copyright__wrapper">
+                    <p class="copyright">Разработано</p>
+                    <a href=""><span class="visually-hidden">HTML Academy</span></a>
+                </div>
+            </footer>
+        </main>
+    </body>
 </html>
