@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML Academy: Pink</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img src="" alt="Логотип Pink">
+        </a>
+        <button class="main-nav__toggle">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+          <li class="main-nav__item"><a href="gallery.html" class="main-nav__link">Фотографии</a></li>
+          <li class="main-nav__item"><a href="contest.html" class="main-nav__link">Конкурс</a></li>
+          <li class="main-nav__item"><a href="https://htmlacademy.ru/" class="main-nav__link">Html academy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="intro">
+        <h2 class="visually-hidden">Загрузка приложения</h2>
+        <a href="#" class="intro__link">Скачать приложение</a>
+        <ul class="intro__download download">
+          <li class="download__item">
+            <a class="download__link" href="https://www.apple.com/ru/"><span class="visually-hidden">Скачать для iphone</span></a>
+          </li>
+          <li class="download__item">
+            <a class="download__link" href="https://www.android.com/"><span class="visually-hidden">Скачать для Android</span></a>
+          </li>
+          <li class="download__item">
+            <a class="download__link" href="https://www.microsoft.com/ru-ru/windows/"><span class="visually-hidden">Скачать для Windows Phone</span></a>
+          </li>
+        </ul>
+        <p class="intro__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section class="information">
+        <h2 class="visually-hidden">Информация о приложении</h2>
+        <p class="information__slogan">Устали от серости мегаполиса?</p>
+        <p class="information__slogan">Нам есть, что вам
+          предложить!</p>
+        <ul class="information__list">
+          <li class="information__item">
+            <h2 class="information__title">Поднимает настроение</h2>
+            <p class="information__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            <img class="information__image" src="" alt="Картинка без фильтра">
+          </li>
+          <li class="information__item">
+            <h2 class="information__title">Меняет мир вокруг</h2>
+            <p class="information__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            <img class="information__image" src="" alt="Картинка с розовым фильтром">
+          </li>
+          <li class="information__item">
+            <h2 class="information__title">Заводит новых друзей</h2>
+            <p class="information__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и зводите новых</p>
+            <img class="information__image information__image--smile" src="" alt="Картинка с розовым фильтром и смайликом">
+          </li>
+        </ul>
+      </section>
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <section class="reviews__slider">
+          <article class="reviews__slide">
+            <cite class="reviews__author">Николай Петров</cite>
+            <blockquote class="reviews__description">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серый вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</blockquote>
+          </article>
+          <article class="reviews__slide">
+            <cite class="reviews__author"></cite>
+            <blockquote class="reviews__description"></blockquote>
+          </article>
+          <article class="reviews__slide">
+            <cite class="reviews__author"></cite>
+            <blockquote class="reviews__description"></blockquote>
+          </article>
+          <div class="review__arrow-block">
+            <button class="review__arrow review__arrow--left"></button>
+            <button class="review__arrow review__arrow--right"></button>
+          </div>
+        </section>
+        <ul class="toggles toggles--review">
+          <li class="toggles__item">
+            <input class="toggles__toggle-review toggles__toggle-review--left" type="radio" name="slider" id="btn-1" checked>
+            <label class="toggles__label" for="btn-1"><span class="visually-hidden">1</span></label>
+          </li>
+          <li class="toggles__item">
+            <input class="toggles__toggle-review" type="radio" name="slider" id="btn-2">
+            <label class="toggles__label" for="btn-2"><span class="visually-hidden">2</span></label>
+          </li>
+          <li class="toggles__item">
+            <input class="toggles__toggle-review toggles__toggle-review--right" type="radio" name="slider" id="btn-3">
+            <label class="toggles__label" for="btn-3"><span class="visually-hidden">3</span></label>
+          </li>
+        </ul>
+      </section>
+      <section class="versions">
+        <h2 class="visually-hidden">Цена</h2>
+        <table class="versions__table">
+          <thead class="versions__table-head">
+          <tr>
+            <th class="versions__heading versions__heading--empty"><span class="visually-hidden">Версии приложения</span></th>
+            <th class="versions__heading">
+              <div class="versions__heading-wrapper">База<span class="versions__price">1,99 USD</span></div>
+            </th>
+            <th class="versions__heading versions__heading--standart">
+              <div class="versions__heading-wrapper">Стандарт <span class="versions__price">3,99 USD</span></div>
+            </th>
+            <th class="versions__heading">
+              <div class="versions__heading-wrapper">Анлим<span class="versions__price">9,99 USD</span></div>
+            </th>
+          </tr>
+          </thead>
+          <tbody class="versions__table-body">
+          <tr class="versions__field">
+            <td class="versions__value">Розовый фильтр</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Розовый фильтр</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Розовый фильтр</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Розовый фильтр</td>
+          </tr>
+          <tr class="versions__field">
+            <td class="versions__value">Смайлики</td>
+            <td class="versions__value versions__value--excluded versions__value--hidden">Смайлики</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Смайлики</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Смайлики</td>
+          </tr>
+          <tr class="versions__field">
+            <td class="versions__value">Комментарии</td>
+            <td class="versions__value versions__value--excluded versions__value--hidden">Комментарии</td>
+            <td class="versions__value versions__value--excluded versions__value--hidden">Комментарии</td>
+            <td class="versions__value versions__value--included versions__value--hidden">Комментарии</td>
+          </tr>
+          </tbody>
+        </table>
+        <ul class="toggles toggles--versions">
+          <li class="toggles__item">
+            <input class="toggles__toggle-table" type="radio" name="table-slider" id="btn-4" checked>
+            <label class="toggles__label" for="btn-4"><span class="visually-hidden">1</span></label>
+          </li>
+          <li class="toggles-item">
+            <input class="toggles__toggle-table" type="radio" name="table-slider" id="btn-5" checked>
+            <label class="toggles__label" for="btn-5"><span class="visually-hidden">2</span></label>
+          </li>
+          <li class="toggles-item">
+            <input class="toggles__toggle-table" type="radio" name="table-slider" id="btn-6">
+            <label class="toggles__label" for="btn-6"><span class="visually-hidden">3</span></label>
+          </li>
+        </ul>
+      </section>
+      <section class="contacts">
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <p class="contacts__description">Остались вопросы? Свяжитесь с нами!</p>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <p class="contacts__text">Звоните:</p>
+            <a href="" class="contacts__link">+7(812)555-66-66</a></li>
+          <li class="contacts__item">
+            <p class="contacts__text">Пишите:</p>
+            <a href="" class="contacts__link">mail@htmlacademy.ru</a></li>
+          <li class="contacts__item">
+            <p class="contacts__text">Приезжайте в гости:</p>
+            <a href="" class="contacts__link">ул. Большая Конюшенная, 19/8</a></li>
+        </ul>
+        <div class="contacts__map"></div>
+      </section>
+    </main>
+  </body>
+</html>
