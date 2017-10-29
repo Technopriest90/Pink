@@ -4,8 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>HTML Academy: Pink</title>
+        <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
+
+        <div style="display: none">
+            <include src="build/img/sprite.svg"></include>
+        </div>
+
         <header class="page-header">
             <nav class="main-nav">
                 <a class="main-nav__logo">
@@ -13,10 +19,10 @@
                 </a>
                 <button class="main-nav__toggle">Открыть меню</button>
                 <ul class="main-nav__list">
-                    <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
-                    <li class="main-nav__item"><a href="gallery.html" class="main-nav__link">Фотографии</a></li>
-                    <li class="main-nav__item"><a href="form.html" class="main-nav__link">Конкурс</a></li>
-                    <li class="main-nav__item"><a href="https://htmlacademy.ru/" class="main-nav__link">Html academy</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="gallery.html">Фотографии</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">Html academy</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,27 +51,27 @@
                     <ul class="contest-form__inner checkbox-list">
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-1" name="selphi-shark" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-1" >Сделал селфи с акулой</label>
+                            <label class="checkbox-list__label" for="checkbox-1">Сделал селфи с акулой</label>
                         </li>
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-2" name="burned-beach" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-2" >Обгорел на пляже</label>
+                            <label class="checkbox-list__label" for="checkbox-2">Обгорел на пляже</label>
                         </li>
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-3" name="chack-norris" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-3" >Видел Чака Норриса</label>
+                            <label class="checkbox-list__label" for="checkbox-3">Видел Чака Норриса</label>
                         </li>
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-4" name="bought-souvenirs" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-4" >Накупил сувенирова</label>
+                            <label class="checkbox-list__label" for="checkbox-4">Накупил сувенирова</label>
                         </li>
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-5" name="kept-tower" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-5" >Удержал башню</label>
+                            <label class="checkbox-list__label" for="checkbox-5">Удержал башню</label>
                         </li>
                         <li class="checkbox-list__item">
                             <input class="checkbox-list__input" id="checkbox-6" name="defeated-hotel" type="checkbox">
-                            <label class="checkbox-list__label" for="checkbox-6" >Разгромил отель</label>
+                            <label class="checkbox-list__label" for="checkbox-6">Разгромил отель</label>
                         </li>
                     </ul>
                 </fieldset>

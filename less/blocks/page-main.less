@@ -1,0 +1,25 @@
+.page-main__title {
+  position: relative;
+
+  width: 100%;
+  height: 462px;
+
+  background: @secondary-color url("../img/bg-back-mobile@1x.jpg") center center no-repeat;
+  background-size: 700px auto;
+}
+
+.page-main__title::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+
+  width: 256px;
+  height: 286px;
+
+  background: url("../img/iphone-hand-mobile@1x.png") center center no-repeat;
+  background-size: contain;
+
+  content: "";
+}
+
